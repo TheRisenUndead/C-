@@ -1,0 +1,4 @@
+Class: Ranger
+Name: Kenu
+Level: 1
+Items: Bow Arrow Chain Armour 

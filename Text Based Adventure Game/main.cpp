@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
-
+//Made by Kenu with the help of Ranithu and Tiago
 // Save function for storing player data
 void save(int savenum, const string &playerClass, const char name[], int level, const string items[]) {
     ofstream MyFile;
@@ -95,7 +95,9 @@ void loadinventory(int savefile) {
 
     infile.close();
 }
-
+void fight(string enemy) {
+    cout << "Fight currently under progress" << endl;
+}
 // In-game menu
 void menu(int savefile) {
     int i = 1;
@@ -116,7 +118,20 @@ void menu(int savefile) {
         if (choice == "1") {
             loadinventory(savefile);
         } else if (choice == "2") {
-            cout << "Underworks" << endl;
+            srand((unsigned) time(NULL));
+            int random = rand();
+            while(random >= 10) {
+                random /= 10;
+            }
+            if (random <= 3) {
+                fight("goblin");
+            }
+            if(random > 3 && random <= 6) {
+                fight("orc");
+            }
+            if(random > 7 && random <= 9) {
+                fight("dragon");
+            }
         } else if (choice == "3") {
             cout << "Shop" << endl;
         } else if (choice == "4") {

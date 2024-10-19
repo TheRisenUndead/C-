@@ -1,0 +1,4 @@
+Class: Warrior
+Name: Jacob
+Level: 1
+Items: Sword Shield Iron Armour 
