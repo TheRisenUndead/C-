@@ -1,0 +1,3 @@
+C:/Users/kenula/CLionProjects/Higherorlower/cmake-build-debug/CMakeFiles/Higherorlower.dir
+C:/Users/kenula/CLionProjects/Higherorlower/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kenula/CLionProjects/Higherorlower/cmake-build-debug/CMakeFiles/rebuild_cache.dir
